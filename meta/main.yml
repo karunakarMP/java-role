@@ -14,7 +14,7 @@ galaxy_info:
   # - GPL-3.0-only
   # - Apache-2.0
   # - CC-BY-4.0
-  license: license (Veritis)
+  license: license (MIT)
 
   min_ansible_version: 2.1
 
@@ -27,11 +27,11 @@ galaxy_info:
   # To view available platforms and versions (or releases), visit:
   # https://galaxy.ansible.com/api/v1/platforms/
   #
-  # platforms:      # yamllint disable-line rule:meta-no-info
-  # - name: Fedora
-  #   versions:
-  #   - all
-  #   - 25
+  platforms:
+  - name: Fedora
+    versions:
+    - all
+    - 25
   # - name: SomePlatform
   #   versions:
   #   - all
